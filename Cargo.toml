@@ -1,0 +1,10 @@
+[package]
+name = "tiarmx-rs"
+version = "0.1.0"
+authors = ["Sebastián Magrí <sebasmagri@gmail.com>"]
+
+[dependencies]
+egg-mode = { path = "../twitter-rs" }
+serde = "1.0.1"
+serde_derive = "1.0.1"
+toml = "0.4.0"
